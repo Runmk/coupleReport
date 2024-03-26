@@ -42,7 +42,7 @@ if __name__ == '__main__':
     datas = {
         "touser": USER_ACCOUNT,
         "template_id": TEMPLATE_ID,
-        "url": "http://weixin.qq.com/download",
+        "url": "https://m.baidu.com/sf?pd=life_compare_weather&openapi=1&dspName=iphone&from_sf=1&resource_id=4982&oe=utf8&alr=1&multiDayWeather=1&title=40天天气预报&query=北京天气",
         "topcolor": "#FF0000",
         "data": {
             "keyword1": {
@@ -53,7 +53,7 @@ if __name__ == '__main__':
                 "value":  "巧克力",
                 "color": "#173177"
             },
-            "dates": {
+            "date": {
                 "value": weather_update,
                 "color": "#173177"
             },
@@ -67,6 +67,10 @@ if __name__ == '__main__':
             },
             "tempMin": {
                 "value": tempMin,
+                "color": "#173177"
+            },
+            "tempMax": {
+                "value": tempMax,
                 "color": "#173177"
             },
             "sunrise": {
